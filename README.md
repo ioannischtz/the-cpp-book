@@ -1,58 +1,79 @@
-# C++ Project Template
+# The C++ Book
 
-A simple template repository to start a new C++ project using CMake.
+Welcome to the public repository for  "The C++ Book" project. This repository contains the chapters in markdown format, the source code examples, and additional resources aimed at providing
+a companion guide for the book. "The C++ Book" draws heavy inspiration from "The Rust Book", in fact it tries to act as a direct port when possible.
 
-Click on the green [`Use this template`](https://github.com/ssciwr/cpp-project-template/generate) button to get started.
+## Table of Contents
 
-If you are looking for more advanced features (such as Python bindings or integration with sites like ReadTheDocs, codecov, sonarcloud or PyPI)
-take a look at our [C++ Project Cookiecutter](https://github.com/ssciwr/cookiecutter-cpp-project)
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Project Structure](#project-structure)
+4. [Example Code](#example-code)
+5. [Chapter Exercises](#chapter-exercises)
+6. [Contributing](#contributing)
 
-## Contents
+## Introduction
 
-This example project contains the `adder` library,
-an application `adder_app` which uses this library,
-and a test-suite which tests the library.
+This project aims to provide a companion guide for those who have experience with "The Rust Book" and are interested in learning C++. We are on a journey to port the principles and concepts of Rust to the world of C++ programming, highlighting similarities and differences.
 
-Any pull-requests or commits to the repository trigger GitHub Actions,
-which will compile the code and run the tests.
+If you haven't already, you can find "The Rust Book" [here](https://doc.rust-lang.org/book/).
 
-Project structure:
+## Getting Started
 
-- [src](src)
-  - the `adder` library source code
-  - this is where the meat of the project is: the implementation
-- [include/adder](include/adder)
-  - the `adder` library headers
-  - the public interface of the library
+To start exploring the C++ companion to "The Rust Book," follow these steps:
+
+1. Clone or fork this repository to your local machine.
+
+2. Navigate to the chapter or exercise you're interested in. You'll find code examples, exercises, and additional resources.
+
+3. Follow the instructions provided in the book to practice and experiment with C++ code.
+
+4. Engage with the community: Feel free to ask questions, share insights, or contribute your own examples and exercises.
+
+## Project Structure
+
+The project is structured as follows:
+
 - [app](app)
-  - the application which uses the `adder` library
+  - Contains C++ application files, including part-specific examples.
+- [build](build)
+  - The build directory for compilation and tests.
+- [cmake](cmmake)
+  - CMake configuration files and Catch2 testing framework setup.
+- [include](include)
+  - Header files for the 'adder' library.
+- [src](src)
+  - The 'adder' library source code.
 - [tests](tests)
-  - the test code
-  - each `x.cpp` file has a corresponding `x_t.cpp` file here with tests
+  - Test files and Catch2 unit tests for the 'adder' library.
 - [ext](ext)
-  - external libraries, e.g. Catch2 testing framework
-- [.github/workflows/ci.yml](.github/workflows/ci.yml)
-  - the GitHub Actions configuration
+  - External libraries, including Catch2 testing framework.
+- [the_book](the_book)
+  - Markdown files mirroring the structure of "The Rust Book" with notes and guides for each chapter.
 
-## Compiling
+## Example Code
 
-To compile the project and run the tests:
+Throughout the project, you'll find code examples that bridge the concepts from "The Rust Book" to C++. These examples are organized in the `app` directory, with each part-specific example in its own subdirectory.
 
-```
-mkdir build
-cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
-make
-make test
-```
+## Chapter Exercises
 
-## Documentation
+Each chapter of the companion guide includes exercises designed to reinforce your understanding of C++ concepts and best practices. You can find exercise solutions and contribute your own solutions in the `app` directory.
 
-If you have Doxygen installed you can also build the documentation by enabling the `BUILD_DOCS` CMake option, and then running `make doxygen`:
+## Contributing
 
-```
-cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_DOCS=ON
-make doxygen
-```
+We welcome contributions from the C++ community and those interested in porting concepts from Rust to C++. If you have improvements to suggest, C++ examples, exercises, or insights to share, please follow these guidelines:
 
-This will generate the documentation in the `html` folder.
+1. Fork this repository.
+
+2. Create a new branch for your contributions: `git checkout -b feature/your-feature-name`.
+
+3. Commit your changes: `git commit -am 'Added a new example for Part X'`.
+
+4. Push to your branch: `git push origin feature/your-feature-name`.
+
+5. Create a Pull Request, detailing your changes and the rationale behind them.
+
+6. Engage in discussions and iterate on your contributions with feedback from the community.
+
+We look forward to your contributions, and together we aim to make C++ programming more accessible for those transitioning from Rust to C++. Happy coding!
+
