@@ -67,7 +67,7 @@ We welcome contributions from the C++ community and those interested in porting 
 
 2. Create a new branch for your contributions: `git checkout -b feature/your-feature-name`.
 
-3. Commit your changes: `git commit -am 'Added a new example for Part X'`.
+3. Commit your changes: `git commit -am 'feat:Add a new example for Part X'`.
 
 4. Push to your branch: `git push origin feature/your-feature-name`.
 
