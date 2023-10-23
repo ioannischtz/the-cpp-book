@@ -1,0 +1,22 @@
+Start testing: Oct 03 20:56 EEST
+----------------------------------------------------------
+1/1 Testing: add_one
+1/1 Test: add_one
+Command: "/home/ion-hz/Develop/cpp/project/the-cpp-book/build/tests/tests" "add_one"
+Directory: /home/ion-hz/Develop/cpp/project/the-cpp-book/build/tests
+"add_one" start time: Oct 03 20:56 EEST
+Output:
+----------------------------------------------------------
+Filters: add_one
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"add_one" end time: Oct 03 20:56 EEST
+"add_one" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 03 20:56 EEST

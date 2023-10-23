@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/adder_app.dir/adder_app.cpp.o -o adder_app  ../src/libadder.a 

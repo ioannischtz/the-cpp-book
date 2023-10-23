@@ -1,0 +1,56 @@
+---
+Checks: "-*,"
+WarningsAsErrors: "*"
+HeaderFilterRegex: ".*"
+AnalyzeTemporaryDtors: true
+CheckOptions:
+  - key: modernize-use-auto
+    value: 1
+  - key: modernize-raw-string-literal
+    value: 1
+  - key: readability-braces-around-statements
+    value: 1
+  - key: readability-delete-null-pointer
+    value: 1
+  - key: readability-redundant-control-flow
+    value: 1
+  - key: readability-implicit-bool-cast
+    value: 1
+  - key: readability-inconsistent-declaration-parameter-name
+    value: 1
+  - key: readability-misleading-indentation
+    value: 1
+  - key: readability-simplify-boolean-expr
+    value: 1
+  - key: readability-container-size-empty
+    value: 1
+  - key: performance-inefficient-string-concatenation
+    value: 1
+  - key: performance-move-const-arg
+    value: 1
+  - key: performance-unnecessary-value-param
+    value: 1
+  - key: modernize-use-nullptr
+    value: 1
+  - key: modernize-use-emplace
+    value: 1
+  - key: modernize-use-equals-default
+    value: 1
+  - key: modernize-use-equals-delete
+    value: 1
+  - key: modernize-use-using
+    value: 1
+  - key: readability-avoid-const-params-in-decls
+    value: 1
+  - key: readability-identifier-naming
+    value: 1
+  - key: readability-function-cognitive-complexity
+    value: 1
+  - key: bugprone-use-after-move
+    value: 1
+  - key: bugprone-undefined-memory-manipulation
+    value: 1
+  - key: cppcoreguidelines-pro-type-member-init
+    value: 1
+  - key: misc-definitions-in-headers
+    value: 1
